@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grade_horaria"
+            android:icon="@mipmap/ic_grade_horaria"
+            android:title="Grade Horária" />
+        <item
+            android:id="@+id/nav_provas"
+            android:icon="@mipmap/ic_prova"
+            android:title="Provas" />
+        <item
+            android:id="@+id/nav_trabalho"
+            android:icon="@mipmap/ic_trabalho"
+            android:title="Trabalhos" />
+        <!--<item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" /> -->
+    </group>
+
+    <item android:title="Redes Sociais">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@mipmap/ic_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_whatsapp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="WhatsApp" />
+        </menu>
+    </item>
+
+</menu>

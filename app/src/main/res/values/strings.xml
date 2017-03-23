@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Estatística 2017</string>
+    <string name="title_activity_principal">Estatística 2017</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuração</string>
+</resources>

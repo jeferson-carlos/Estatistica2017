@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SEGUNDA FEIRA"
+        android:id="@+id/txtDiaSemana"
+        android:paddingTop="@dimen/fab_margin"
+        android:paddingLeft="@dimen/fab_margin"
+        android:textSize="@dimen/size_font_25"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/txtHorario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="TEste"
+                android:paddingTop="@dimen/fab_margin"
+                android:paddingLeft="@dimen/fab_margin"
+                android:textSize="@dimen/size_font_20"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCodigoDisciplina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Teste 2"
+                android:paddingTop="@dimen/fab_margin"
+                android:paddingLeft="@dimen/fab_margin"
+                android:textSize="@dimen/fab_margin"/>
+
+            <TextView
+                android:id="@+id/txtNomeDisciplina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Teste 3"
+                android:paddingTop="@dimen/fab_margin"
+                android:paddingLeft="@dimen/fab_margin"
+                android:textSize="@dimen/fab_margin"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
