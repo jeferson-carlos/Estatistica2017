@@ -68,6 +68,48 @@ public class GradeHorarioActivity extends AppCompatActivity {
                 disciplina.setHorario("21h às 22:40h");
                 disciplina.setCodigo("SME0803");
                 disciplinaList.add(disciplina);
+            } else if (i == 2) {
+                Disciplina disciplina = new Disciplina();
+                disciplina.setDiaSemana("QUARTA-FEIRA");
+                disciplina.setNome("Geometria Analítica");
+                disciplina.setHorario("19h às 20:40h");
+                disciplina.setCodigo("SMA0800");
+                disciplinaList.add(disciplina);
+
+                disciplina = new Disciplina();
+                disciplina.setDiaSemana("QUARTA-FEIRA");
+                disciplina.setNome("Cálculo I");
+                disciplina.setHorario("21h às 22:40h");
+                disciplina.setCodigo("SMA0801");
+                disciplinaList.add(disciplina);
+            } else if (i == 3) {
+                Disciplina disciplina = new Disciplina();
+                disciplina.setDiaSemana("QUINTA-FEIRA");
+                disciplina.setNome("Análise Exploratória de Dados");
+                disciplina.setHorario("19h às 20:40h");
+                disciplina.setCodigo("SMA0803");
+                disciplinaList.add(disciplina);
+
+                disciplina = new Disciplina();
+                disciplina.setDiaSemana("QUINTA-FEIRA");
+                disciplina.setNome("Geometria Analítica");
+                disciplina.setHorario("21h às 22:40h");
+                disciplina.setCodigo("SMA0800");
+                disciplinaList.add(disciplina);
+            } else if (i == 4) {
+                Disciplina disciplina = new Disciplina();
+                disciplina.setDiaSemana("SEXTA-FEIRA");
+                disciplina.setNome("Tópicos de Matemática");
+                disciplina.setHorario("19h às 20:40h");
+                disciplina.setCodigo("SMA0805");
+                disciplinaList.add(disciplina);
+
+                disciplina = new Disciplina();
+                disciplina.setDiaSemana("SEXTA-FEIRA");
+                disciplina.setNome("Cálculo I");
+                disciplina.setHorario("21h às 22:40h");
+                disciplina.setCodigo("SMA0801");
+                disciplinaList.add(disciplina);
             }
         }
         return disciplinaList;
