@@ -87,6 +87,7 @@ public class PrincipalActivity extends AppCompatActivity
         if (id == R.id.nav_grade_horaria) {
             startActivity(new Intent(this, GradeHorarioActivity.class));
         } else if (id == R.id.nav_provas) {
+            startActivity(new Intent(this, CardViewActivity.class));
 
         } else if (id == R.id.nav_trabalho) {
 

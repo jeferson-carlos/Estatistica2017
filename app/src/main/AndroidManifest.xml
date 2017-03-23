@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".GradeHorarioActivity" android:parentActivityName=".PrincipalActivity"/>
+        <activity android:name=".CardViewActivity" android:parentActivityName=".PrincipalActivity" />
     </application>
 
 </manifest>
